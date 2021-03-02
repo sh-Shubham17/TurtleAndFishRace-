@@ -1,0 +1,172 @@
+body {
+  overflow: hidden;
+  color: white;
+  background-image: url("https://wallpapercave.com/wp/OzpiTdT.jpg");
+}
+
+#bluefish {
+  position: absolute;
+  top: 30vw;
+  width: 17vw;
+}
+
+#turtle {
+  position: absolute;
+  top: 10vw;
+  width: 17vw;
+}
+
+#bluefishwin {
+  position: absolute;
+  right: 1vw;
+  top: 30vw;
+  width: 10vw;
+  display: none;
+}
+
+#turtlewin {
+  position: absolute;
+  right: 1vw;
+  top: 10vw;
+  width: 10vw;
+  display: none;
+}
+
+.finishline {
+  position: absolute;
+  right: 10px;
+  height: 100vw;
+}
+.button {
+  cursor: pointer;
+  position: absolute;
+  background: rgb(250, 153, 7);
+  color: white;
+  font-size: 1vw;
+  padding: 1vw;
+  border: 5px solid greenyellow;
+  border-radius: 2vw;
+  margin: 1vw;
+  opacity: 0.95;
+}
+
+#traffic-light {
+  position: absolute;
+  height: 10vw;
+  width: 4vw;
+  left: 20vw;
+  background-color: #333;
+  border-radius: 20vw;
+}
+
+.bulb {
+  height: 2vw;
+  width: 2vw;
+  left: 0vw;
+  background-color: #111;
+  border-radius: 50%;
+  margin: 1vw auto;
+  transition: background 500ms;
+}
+#stopLight {
+  background-color: red;
+}
+h1 {
+  position: absolute;
+  left: 25vw;
+  color: goldenrod;
+}
+#stopWatch {
+  position: absolute;
+  left: 35vw;
+  height: 8vw;
+  width: 12vw;
+  background-color: #333;
+  border-radius: 5px;
+}
+#display {
+  position: absolute;
+  height: 3vw;
+  width: 8vw;
+  margin: 2vw;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 2vw;
+  background-color: #111;
+}
+#container {
+  position: absolute;
+  left: 50vw;
+  height: 8vw;
+  width: 15vw;
+  background-color: rgba(250, 8, 8, 0.864);
+  border-radius: 5px;
+}
+#choice {
+  position: absolute;
+  height: 3vw;
+  width: 10vw;
+  margin: 2vw;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 2vw;
+  text-align: center;
+  background-color: #111;
+  color: goldenrod;
+}
+.button2 {
+  cursor: pointer;
+  position: absolute;
+  width: 10vw;
+  height: 3vw;
+  text-align: center;
+  right: 15vw;
+  background: rgb(11, 214, 221);
+  color: white;
+  font-size: 2vw;
+  padding: 1vw;
+  border: 5px solid greenyellow;
+  border-radius: 2vw;
+  margin: 1vw;
+  opacity: 0.95;
+}
+.button:hover {
+  opacity: 1;
+  padding: 1.5vw;
+  font-size: 1.2vw;
+}
+#traffic-light:hover {
+  width: 5vw;
+  height: 11vw;
+  left: 19.5vw;
+}
+.bulb:hover {
+  height: 2.5vw;
+  width: 2.5vw;
+  left: 0vw;
+}
+#container:hover {
+  border: 2px solid rgba(250, 8, 8, 0.864);
+  left: 49.5vw;
+  height: 9vw;
+  width: 16vw;
+}
+#stopWatch:hover {
+  height: 8.5vw;
+  width: 12.5vw;
+  left: 34.85vw;
+}
+.button2:hover {
+  width: 11vw;
+  height: 4vw;
+  right: 14.5vw;
+  font-size: 2.5vw;
+}
+
+@media only screen and (max-width: 780px) {
+  .finishline {
+    width: 5vw;
+    height: 50vw;
+  }
+}

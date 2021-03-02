@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>turtle Race</title>
+        <link rel="stylesheet" href="index.css">
+ 
+</head>
+<body>
+      <a class= "button" onclick="myMove()" title="click Me">START RACE</a>
+
+      <div id="traffic-light">
+        <div id="stopLight" class="bulb" title="redlight"></div>
+        <div id="yeildLight" class="bulb" title="yellowlight"></div>
+        <div id="goLight" class="bulb" title="greenlight"></div>
+      </div>
+      <h1 id="startsIn"></h1>
+      <div id="stopWatch" title="stop watch">
+        <div id="display">
+          00:00:00
+        </div>
+      </div>
+      <div id="container" title="default speed: 10">
+        <select id="choice">
+          <option>choose speed</option>
+          <option id="1">5</option>
+          <option id="2">10</option>
+          <option id="3">15</option>
+          <option id="4">20</option>
+        </select>
+      </div>
+      <a class= "button2" onclick="reset()" title="click to reset">RESET</a>
+      <img class="finishline" src="finish-line.png" >
+      <img id="bluefish" src="Blue_Fish.png" title="blue fish">
+      <img id="turtle" src="turtle.png" title="turtle">
+      
+      <img id="bluefishwin" src="prize-winner.svg">
+      <img id="turtlewin" src="prize-winner.svg">
+      
+
+      <script src="content.js"></script>
+</body>
+</html>

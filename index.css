@@ -89,8 +89,8 @@ h1 {
   height: 3vw;
   width: 8vw;
   margin: 2vw;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 0.9vw;
+  padding-bottom: 1vw;
   text-align: center;
   font-size: 2vw;
   background-color: #111;
@@ -108,8 +108,8 @@ h1 {
   height: 3vw;
   width: 10vw;
   margin: 1vw;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
   font-size: 1vw;
   text-align: center;
   background-color: #111;

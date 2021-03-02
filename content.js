@@ -74,11 +74,11 @@ function time(eTime) {
 function findWidth() {
   let width;
   if (screen.width > 1000) {
-    width = screen.width - 300;
+    width = screen.width - 200;
   } else if (screen.width > 700) {
-    width = screen.width - 150;
-  } else {
     width = screen.width - 100;
+  } else {
+    width = screen.width - 80;
   }
   return width;
 }
